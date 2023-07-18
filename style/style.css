@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+:root {
+    --linear: #FF42A5;
+}
+
+/* 
+nav style start from here */
+.nav-container {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-content {
+    display: flex;
+    max-width: 1400px;
+    justify-self: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo-part {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.logo-img {
+    margin-right: 10px;
+}
+
+.logo-title {
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.logo-title-design {
+    color: var(--linear)
+}
+
+.nav-items {
+    width: 50%;
+
+}
+
+.nav-items>ul {
+    display: flex;
+    justify-content: end;
+
+}
+
+.nav-items li {
+    list-style: none;
+    padding: 0 20px;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+
+}
+
+.last-child {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    height: 50px;
+}
+
+.last-child .fa-youtube {
+    color: red;
+    font-size: 20px;
+    padding: 0 10px;
+
+}
+
+/* nav section style end here */
+/* banner section style from here */
