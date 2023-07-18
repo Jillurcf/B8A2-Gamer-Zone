@@ -334,8 +334,8 @@ nav style start from here */
     max-width: 1400px;
     margin: 0 auto;
     align-items: center;
-    height: 50vh;
-    padding: 50px;
+    height: 40vh;
+    padding-top: 80px;
 }
 
 .footer-logo-title {
@@ -371,14 +371,8 @@ nav style start from here */
 .social-icon li {
     list-style: none;
     margin: 20px 30px;
-}
-
-.fa-facebook,
-.fa-square-twitter,
-.fa-youtube {
     color: #f7edf3;
     font-size: 30px;
-
 }
 
 .terms-condition ul {
@@ -392,7 +386,7 @@ nav style start from here */
     margin: 10px 20px;
 }
 
-.copywright {
+.copy-wright {
     text-align: center;
     padding: 30px;
     color: gray;
