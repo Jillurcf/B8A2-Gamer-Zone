@@ -200,10 +200,11 @@
     .footer-items>ul {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
+        text-align: center;
     }
 
     .footer-items li {
-        margin: 5px;
+        margin: 5px 0;
     }
 
     ;
@@ -215,7 +216,7 @@
         margin: 20px;
     }
 
-    .copywright {
+    .copy-wright {
         text-align: center;
         padding: 30px;
         color: gray;
@@ -423,6 +424,10 @@
     .footer-items>ul {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .footer-items li {
@@ -443,9 +448,7 @@
         margin: 5px auto;
     }
 
-    .footer-copywright {}
-
-    .copywright {
+    .copy-wright {
         text-align: center;
         padding: 30px;
         font-size: 15px;
