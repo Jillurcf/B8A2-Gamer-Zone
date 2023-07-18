@@ -235,4 +235,51 @@ nav style start from here */
 
 /* online game end */
 /* play instantly start */
+.play-instantly-section {
+    margin-top: 100px;
+}
+
+.play-instantly-container {
+    max-width: 1400px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.play-instantly-content {
+    width: 50%;
+    text-align: right;
+    height: 400px;
+    margin-right: 200px;
+}
+
+.play-instantly-title {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 260px;
+    padding-bottom: 20px;
+}
+
+.play-instantly-title-design {
+    color: #FF42A5;
+}
+
+.play-instantly-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.play-instantly-img {
+    width: 50%;
+    position: relative;
+}
+
+.play-instantly-img-two {
+    position: absolute;
+    left: -20%;
+    top: 60%;
+}
+
 /* play instantly end */

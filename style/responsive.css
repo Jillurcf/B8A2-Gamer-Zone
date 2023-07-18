@@ -98,6 +98,49 @@
     }
 
     /* online game end */
+    /* play instantly start */
+    .play-instantly-container {
+        flex-direction: column;
+    }
+
+    .play-instantly-content {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .play-instantly-title {
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+        margin: 0 auto;
+        align-items: center;
+
+    }
+
+    .play-instantly-title-design {
+        color: #FF42A5;
+    }
+
+    .play-instantly-description {
+        text-align: center;
+
+    }
+
+    .play-instantly-img {
+        margin: -100px auto;
+        width: 60%;
+    }
+
+    .play-instantly-img-one {
+        width: 100%;
+    }
+
+    .play-instantly-img-two {
+        width: 40%;
+    }
+
+
 }
 
 @media screen and (max-width: 576px) {
@@ -200,5 +243,46 @@
 
     /* online game end */
     /* play instantly start */
+    .play-instantly-container {
+        flex-direction: column;
+    }
+
+    .play-instantly-content {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .play-instantly-title {
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+        margin: 0 auto;
+        align-items: center;
+
+    }
+
+    .play-instantly-title-design {
+        color: #FF42A5;
+    }
+
+    .play-instantly-description {
+        text-align: center;
+
+    }
+
+    .play-instantly-img {
+        margin: -100px auto;
+        width: 60%;
+    }
+
+    .play-instantly-img-one {
+        width: 100%;
+    }
+
+    .play-instantly-img-two {
+        width: 40%;
+    }
+
     /* play instantly end */
 }
