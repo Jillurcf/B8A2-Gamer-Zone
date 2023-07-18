@@ -140,6 +140,46 @@
         width: 40%;
     }
 
+    /* logo game start */
+    /* game logo start */
+    .game-logo-section {
+        padding: 20px;
+    }
+
+    .game-logo-container {
+        max-width: 100%;
+        row-gap: 20px;
+        column-gap: 10px;
+        padding: 2px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .game-content {
+        border-radius: 20px;
+
+    }
+
+    .game-title {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 0px 0px;
+
+    }
+
+    .game-img {
+        width: 20%;
+    }
+
+    .game-img img {
+        width: 100%;
+
+    }
+
+    /* game logo end */
+    /* logo game end */
+
 
 }
 
@@ -285,4 +325,41 @@
     }
 
     /* play instantly end */
+    /* game logo start */
+    .game-logo-section {
+        padding: 20px;
+    }
+
+    .game-logo-container {
+        max-width: 100%;
+        row-gap: 20px;
+        column-gap: 10px;
+        padding: 2px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .game-content {
+        border-radius: 20px;
+
+    }
+
+    .game-title {
+        font-size: 10px;
+        font-weight: 400;
+        padding: 0px 0px;
+
+    }
+
+    .game-img {
+        width: 15%;
+    }
+
+    .game-img img {
+        width: 100%;
+
+    }
+
+    /* game logo end */
 }

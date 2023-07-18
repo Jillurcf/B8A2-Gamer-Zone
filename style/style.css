@@ -283,3 +283,45 @@ nav style start from here */
 }
 
 /* play instantly end */
+/* game logo start */
+.game-logo-section {
+    background-color: #f7edf3;
+    margin-top: 120px;
+}
+
+.game-logo-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px;
+
+}
+
+.game-content {
+    display: flex;
+    align-items: center;
+    border-radius: 48px;
+    background-color: #FFFFFF;
+
+}
+
+.game-content:hover {
+    border: 5px solid #F948B2;
+
+}
+
+.game-title {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 29px 12px;
+}
+
+.game-img {
+    padding: 10px;
+}
+
+/* game logo end */
