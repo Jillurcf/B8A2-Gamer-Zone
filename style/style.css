@@ -325,3 +325,80 @@ nav style start from here */
 }
 
 /* game logo end */
+/* footer start */
+.footer-section {
+    background-color: #0B0223;
+
+
+}
+
+.footer-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+    height: 50vh;
+    padding: 50px;
+}
+
+.footer-logo-title {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-logo-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-items>ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-items li {
+    list-style: none;
+    color: gray;
+    margin: 20px;
+}
+
+.social-icon>ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-icon li {
+    list-style: none;
+    margin: 20px 30px;
+}
+
+.fa-facebook,
+.fa-square-twitter,
+.fa-youtube {
+    color: #f7edf3;
+    font-size: 30px;
+
+}
+
+.terms-condition ul {
+    display: flex;
+    justify-content: center;
+}
+
+.terms-condition li {
+    list-style: none;
+    color: gray;
+    margin: 10px 20px;
+}
+
+.copywright {
+    text-align: center;
+    padding: 30px;
+    color: gray;
+    font-size: 15px;
+}
+
+/* footer end */

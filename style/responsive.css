@@ -179,7 +179,50 @@
 
     /* game logo end */
     /* logo game end */
+    /* footer start */
+    .footer-section {
+        background-color: #0B0223;
+    }
 
+    .footer-container {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+
+    }
+
+    .footer-logo-title {
+        color: #FFF;
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .footer-items>ul {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .footer-items li {
+        margin: 5px;
+    }
+
+    ;
+
+
+    .terms-condition ul {}
+
+    .terms-condition li {
+        margin: 20px;
+    }
+
+    .copywright {
+        text-align: center;
+        padding: 30px;
+        color: gray;
+        font-size: 15px;
+    }
+
+    /* footer end */
 
 }
 
@@ -362,4 +405,52 @@
     }
 
     /* game logo end */
+    /* footer start */
+
+    .footer-container {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+
+    }
+
+    .footer-logo-title {
+        color: #FFF;
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .footer-items>ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-items li {
+        margin: 5px;
+    }
+
+
+    .terms-condition>ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        margin: 0 auto;
+
+    }
+
+    .terms-condition li {
+        font-size: 15px;
+        margin: 5px auto;
+    }
+
+    .footer-copywright {}
+
+    .copywright {
+        text-align: center;
+        padding: 30px;
+        font-size: 15px;
+
+    }
+
+    /* footer end */
 }
