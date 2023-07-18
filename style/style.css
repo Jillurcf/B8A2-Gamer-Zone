@@ -87,3 +87,152 @@ nav style start from here */
 
 /* nav section style end here */
 /* banner section style from here */
+.play-like-secetion {}
+
+.play-like-container {
+    display: flex;
+    /* max-width: 1400px; */
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.play-like-content {
+    width: 50%;
+    background-image: url("/images/Group\ 14.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 901px;
+    height: 700px;
+    margin-right: 50px;
+    align-items: center;
+    display: flex;
+}
+
+.play-like-content-item {
+    width: 42%;
+    margin: 0 auto;
+
+}
+
+.play-like-content-item-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.play-like-content-item-title-design {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.play-like-content-item p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.play-like-btn-one {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: var(--linear);
+    border-radius: 48px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.play-like-btn-two {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: var(--linear);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+.play-like-img {
+    width: 50%;
+}
+
+.play-like-content-item-title-design {
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 100px;
+}
+
+/* online game start */
+.online-game-section {
+    max-width: 1400px;
+    margin: 50px auto;
+}
+
+.online-game-title {
+    text-align: center;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-game-description {
+    color: #534C64;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.online-game-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.online-game-title-design {
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.online-game-container .card {
+    position: relative;
+    text-align: center;
+}
+
+
+.online-game-container .card .play-btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transition: .5s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+.online-game-container .card:hover .play-btn {
+    opacity: 1;
+}
+
+
+.online-game-container .card img:hover {
+    border: 5px solid var(--linear);
+    border-radius: 25px;
+    opacity: 0.3;
+
+}
+
+/* online game end */
+/* play instantly start */
+/* play instantly end */

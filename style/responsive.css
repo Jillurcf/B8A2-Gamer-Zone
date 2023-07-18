@@ -29,6 +29,75 @@
     }
 
     /* nav section responsive end from here */
+
+    /* play like responsive start from here */
+
+    .play-like-container {
+        flex-direction: column-reverse;
+    }
+
+    .play-like-content {
+        width: 100%;
+        width: 100%;
+        height: 400px;
+        margin-right: 0px;
+    }
+
+    .play-like-content-item {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .play-like-content-item-title {
+        font-size: 30px;
+    }
+
+    .play-like-content-item p {
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .play-like-btn {
+        text-align: center;
+    }
+
+    .play-like-btn-one {
+
+        font-size: 18px;
+    }
+
+    .play-like-btn-two {
+        font-size: 18px;
+    }
+
+    .play-like-img {
+        width: 100%;
+    }
+
+    .play-like-img img {
+        width: 100%;
+    }
+
+    .play-like-content-item-title-design {
+        font-size: 60px;
+    }
+
+
+    /* play like responsive end here */
+    /* online game start */
+    .online-game-container {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: -10px;
+        row-gap: 30px;
+    }
+
+
+    .online-game-container .card p {
+        font-size: 12px;
+    }
+
+    /* online game end */
 }
 
 @media screen and (max-width: 576px) {
@@ -62,4 +131,74 @@
     }
 
     /* nav section responsive end from here */
+    /* play like responsive start from here */
+    .play-like-container {
+        flex-direction: column-reverse;
+    }
+
+    .play-like-content {
+        width: 100%;
+        width: 420px;
+        height: 400px;
+        margin-right: 0px;
+    }
+
+    .play-like-content-item {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .play-like-content-item-title {
+        font-size: 30px;
+    }
+
+    .play-like-content-item p {
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .play-like-btn {
+        text-align: center;
+    }
+
+    .play-like-btn-one {
+
+        font-size: 18px;
+    }
+
+    .play-like-btn-two {
+        font-size: 18px;
+    }
+
+    .play-like-img {
+        width: 100%;
+    }
+
+    .play-like-img img {
+        width: 100%;
+    }
+
+    .play-like-content-item-title-design {
+        font-size: 60px;
+    }
+
+    /* online game start */
+    .online-game-container {
+        grid-template-columns: 1fr;
+        gap: 50px;
+
+    }
+
+    .online-game-description {
+        font-size: 12px;
+    }
+
+    .online-game-container .card p {
+        font-size: 12px;
+    }
+
+    /* online game end */
+    /* play instantly start */
+    /* play instantly end */
 }
