@@ -313,6 +313,11 @@ nav style start from here */
 
 }
 
+.game-content:hover h6 {
+    color: #F948B2;
+}
+
+
 .game-title {
     color: #0B0223;
     font-size: 20px;
