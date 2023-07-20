@@ -415,50 +415,64 @@
 
     }
 
+    .footer-logo-part img {
+        width: 3rem;
+    }
+
     .footer-logo-title {
         color: #FFF;
-        font-size: 45px;
+        font-size: 2rem;
         font-weight: 700;
     }
 
     .footer-items>ul {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        margin: 0 auto;
+        margin: 1rem auto;
         align-items: center;
         justify-content: center;
         text-align: center;
+        padding: 0 3rem;
     }
 
     .footer-items li {
-        margin: 5px;
+        margin: .5rem;
+        font-size: 1rem;
+        color: white;
     }
 
+    .terms-condition {
+        padding: 0.5rem 3rem .5rem;
+
+    }
 
     .terms-condition>ul {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-        margin: 0 auto;
-
+        grid-template-columns: repeat(2, 2fr);
+        gap: .5rem;
     }
 
     .terms-condition li {
-        font-size: 15px;
-        margin: 5px auto;
+        font-size: 1rem;
+        margin: 0 auto;
+
     }
 
-    .footer-copywright {
+    /* .footer-copywright {
         width: 50%;
         margin: 0 auto;
-    }
+    } */
 
     .copy-wright {
-        /* text-align: center;
-        align-items: center; */
+
         padding: 20px 0px;
         font-size: 12px;
         margin: 0 auto;
+    }
+
+    #content-one::after {
+        content: "\a";
+        white-space: pre;
     }
 
     /* footer end */

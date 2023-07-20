@@ -225,6 +225,27 @@ nav style start from here */
     opacity: 1;
 }
 
+.online-game-container .card .play-btn .f-play-btn {
+    border: 1px solid white;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: gray;
+    align-items: center;
+    position: relative;
+    margin: .5rem auto;
+
+}
+
+.online-game-container .card .play-btn .f-play-btn .fa-play {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.online-game-container .card .play-btn p {
+    font-weight: 700;
+}
 
 .online-game-container .card img:hover {
     border: 5px solid var(--linear);
